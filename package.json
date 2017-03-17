@@ -1,6 +1,6 @@
 {
   "name": "cake-linked",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Delegate commands to symlinked packages.",
   "main": "lib/index.js",
   "module": "lib/index.mjs",

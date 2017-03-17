@@ -3,7 +3,7 @@ Delegate commands to linked packages.
 
 ## Install
 ```bash
-$ npm install cake-linked
+$ npm install cake-linked --save-dev
 ```
 
 ## Usage

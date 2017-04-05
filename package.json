@@ -1,5 +1,5 @@
 {
-  "name": "cake-linked",
+  "name": "sake-linked",
   "version": "0.1.1",
   "description": "Delegate commands to symlinked packages.",
   "main": "lib/index.js",
@@ -9,29 +9,29 @@
     "lib/"
   ],
   "scripts": {
-    "prepublish": "cake build"
+    "prepublish": "sake build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zeekay/cake-linked.git"
+    "url": "git+https://github.com/sakejs/sake-linked.git"
   },
   "keywords": [],
-  "author": "Zach Kelling <z@zeekay.io> (zeekay.io)",
+  "author": "Hanzo, Inc <hi@hanzo.io",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zeekay/cake-linked/issues"
+    "url": "https://github.com/sakejs/sake-linked/issues"
   },
-  "homepage": "https://github.com/zeekay/cake-linked#readme",
+  "homepage": "https://github.com/sakejs/sake-linked#readme",
   "dependencies": {
     "mz": "2.6.0"
   },
   "devDependencies": {
-    "cake-bundle": "0.1.0",
-    "cake-outdated": "0.1.4",
-    "cake-publish": "0.1.5",
-    "cake-test": "0.1.0",
-    "cake-version": "0.1.9",
+    "sake-bundle": "0.1.0",
+    "sake-outdated": "0.1.4",
+    "sake-publish": "0.1.5",
+    "sake-test": "0.1.0",
+    "sake-version": "0.1.9",
     "coffee-script": "1.12.4",
-    "shortcake": "1.2.5"
+    "shortsake": "1.2.5"
   }
 }

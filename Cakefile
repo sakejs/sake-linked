@@ -1,14 +1,18 @@
-require 'shortcake'
+use 'sake-outdated'
+use 'sake-publish'
+use 'sake-test'
+use 'sake-version'
 
-use 'cake-bundle', entry: 'src/index.coffee'
-use 'cake-outdated'
-use 'cake-publish'
-use 'cake-test'
-use 'cake-version'
+use 'sake-bundle',
+  entry: 'src/index.coffee'
+  compilers:
+    coffee: version: 1
 
-use require './'
+try
+  use require './'
+catch err
 
 task 'build', 'build project', ['bundle']
 
 task 'clean', 'clean project', ->
-  exec 'rm -rf dist'
+  exec 'rm -rf lib'

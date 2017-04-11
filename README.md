@@ -1,31 +1,41 @@
-# cake-linked [![NPM version][npm-img]][npm-url] [![Build Status][travis-img]][travis-url] [![Coverage Status][coveralls-img]][coveralls-url] [![Dependency Status][dependency-img]][dependency-url] [![Gitter chat][gitter-img]][gitter-url]
+# sake-linked
+
+[![npm][npm-img]][npm-url]
+[![build][build-img]][build-url]
+[![dependencies][dependencies-img]][dependencies-url]
+[![downloads][downloads-img]][downloads-url]
+[![license][license-img]][license-url]
+[![chat][chat-img]][chat-url]
+
 Delegate commands to linked packages.
 
 ## Install
 ```bash
-$ npm install cake-linked --save-dev
+$ npm install sake-linked --save-dev
 ```
 
 ## Usage
-```coffee
-require 'shortcake'
+In your Sakefile:
 
-use 'cake-linked`'
+```javascript
+use('sake-linked')
 ```
 
-[travis-img]:     https://img.shields.io/travis/zeekay/cake-linked.svg
-[travis-url]:     https://travis-ci.org/zeekay/cake-linked
-[coveralls-img]:  https://coveralls.io/repos/zeekay/cake-linked/badge.svg?branch=master&service=github
-[coveralls-url]:  https://coveralls.io/github/zeekay/cake-linked?branch=master
-[dependency-url]: https://david-dm.org/zeekay/cake-linked
-[dependency-img]: https://david-dm.org/zeekay/cake-linked.svg
-[npm-img]:        https://img.shields.io/npm/v/cake-linked.svg
-[npm-url]:        https://www.npmjs.com/package/cake-linked
-[gitter-img]:     https://badges.gitter.im/join-chat.svg
-[gitter-url]:     https://gitter.im/zeekay/hi
+## License
+[BSD][license-url]
 
-<!-- not used -->
-[downloads-img]:     https://img.shields.io/npm/dm/cake-linked.svg
-[downloads-url]:     http://badge.fury.io/js/cake-linked
-[devdependency-img]: https://david-dm.org/zeekay/cake-linked/dev-status.svg
-[devdependency-url]: https://david-dm.org/zeekay/cake-linked#info=devDependencies
+[mocha]:            https://mochajs.org
+[build-img]:        https://img.shields.io/travis/sakejs/sake-linked.svg
+[build-url]:        https://travis-ci.org/sakejs/sake-linked
+[chat-img]:         https://badges.gitter.im/join-chat.svg
+[chat-url]:         https://gitter.im/sakejs/chat
+[coverage-img]:     https://coveralls.io/repos/sakejs/sake-linked/badge.svg?branch=master&service=github
+[coverage-url]:     https://coveralls.io/github/sakejs/sake-linked?branch=master
+[dependencies-img]: https://david-dm.org/sakejs/sake-linked.svg
+[dependencies-url]: https://david-dm.org/sakejs/sake-linked
+[downloads-img]:    https://img.shields.io/npm/dm/sake-linked.svg
+[downloads-url]:    http://badge.fury.io/js/sake-linked
+[license-img]:      https://img.shields.io/npm/l/sake-linked.svg
+[license-url]:      https://github.com/sakejs/sake-linked/blob/master/LICENSE
+[npm-img]:          https://img.shields.io/npm/v/sake-linked.svg
+[npm-url]:          https://www.npmjs.com/package/sake-linked

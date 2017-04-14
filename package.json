@@ -4,7 +4,6 @@
   "description": "Delegate commands to symlinked packages.",
   "main": "lib/index.js",
   "module": "lib/index.mjs",
-  "js:next": "lib/index.mjs",
   "files": [
     "src/",
     "lib/"

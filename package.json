@@ -29,7 +29,7 @@
     "mz": "2.6.0"
   },
   "devDependencies": {
-    "coffee-script": "1.12.4",
+    "coffee-script": "1.12.5",
     "sake-bundle": "0.4.15",
     "sake-cli": "0.4.4",
     "sake-outdated": "0.1.20",

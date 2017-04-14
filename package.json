@@ -6,10 +6,14 @@
   "module": "lib/index.mjs",
   "js:next": "lib/index.mjs",
   "files": [
+    "src/",
     "lib/"
   ],
   "scripts": {
-    "prepublish": "sake build"
+    "build": "sake build",
+    "prepublishOnly": "sake build",
+    "pretest": "sake build",
+    "test": "sake build"
   },
   "repository": {
     "type": "git",
@@ -17,7 +21,7 @@
   },
   "keywords": [],
   "author": "Hanzo, Inc. <hi@hanzo.io",
-  "license": "BSD",
+  "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/sakejs/sake-linked/issues"
   },
@@ -31,7 +35,6 @@
     "sake-publish": "0.1.5",
     "sake-test": "0.1.0",
     "sake-version": "0.1.9",
-    "coffee-script": "1.12.4",
-    "shortsake": "1.2.5"
+    "coffee-script": "1.12.4"
   }
 }

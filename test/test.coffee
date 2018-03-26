@@ -1,6 +1,6 @@
 exec = require 'executive'
 
-describe 'cake-linked', ->
+describe 'sake-linked', ->
   it 'should add linked commands', ->
-    {stdout} = yield exec 'cake', cwd: __dirname
+    {stdout} = yield exec 'sake', cwd: __dirname
     stdout.should.contain 'linked'
